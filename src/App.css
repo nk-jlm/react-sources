@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.line{
+  display: flex;
+  justify-content: center;
+}
+.cell {
+  border: 1px solid #1a388d;
+  cursor: pointer;
+  background: skyblue;
+  min-height: 2.5em;
+  min-width: 2.5em;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
